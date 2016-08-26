@@ -17,67 +17,7 @@ include "buttons.php";
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?php echo $title ?></title>
-		<style>
-			.show img {
-				width:100%;
-			}
-			.hide img {
-				width:100%;
-			}
-			.show  {
-				display:block;
-			}
-			.hide {
-				display:none;
-			}
-			#article_list {
-				clear:both;
-			}
-			button {
-				float:right;
-				width:15%;
-				height:10%;
-				font-size:0.8cm;
-				margin-left:50px;
-				margin-top:10px;
-			}
-			article {
-				width: 210px;
-				height: 320px;
-				margin: 10px;
-				float: left;
-			}
-			.cover {
-				position: relative;
-				width:100%;
-				height:50%;
-				top:-140px;
-				background-color:#113311;
-			}
-			 .uncover {
-				position: relative;
-				width:20%;
-				height:10%;
-				top:-140px;
-				background-color:#113311;
-			}
-			.cover:hover, .uncover:hover {
-				opacity:0.3;  
-			}
-			h1 {
-				float:left;
-				font-size:1.8cm;
-			}
-			@media only screen 
-and (max-device-width : 400px)  {
-		  .cover {
-				opacity:0;
-			}
-			.cover:hover, .uncover:hover {
-				opacity:1;  
-			}
-}
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
     <body>
 		<h1 id="titleH1"><?php echo $absent ; ?></h1>
